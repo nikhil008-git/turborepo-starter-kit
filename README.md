@@ -1,5 +1,22 @@
 # Turborepo starter
 
+## Environment Variables
+
+You need to create a `.env` file in the following directories:
+
+1. `packages/database`
+2. `apps/frontend`
+
+Both `.env` files should include the following variables:
+
+```env
+DATABASE_URL=
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=
+```
+
+You can find a template in `.env.example` at the root of the project.
+
 This Turborepo starter is maintained by the Turborepo core team.
 
 ## Using this example
